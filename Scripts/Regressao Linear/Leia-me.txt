@@ -1,0 +1,14 @@
+Arquivos codificados baseados no livro Cálculo númerico para engenharia
+Pag 382 - 
+
+
+
+
+
+----------------------------------- XXXXXXXXXXXXXXXXXXXXX -----------------
+Comandos Octave para testes
+
+
+
+x = [1 2 3 4 5 6 7]
+y = [0.5 2.5 2 4 3.5 6 5.5]

@@ -1,0 +1,17 @@
+Metodos numericos exercicios resolvidos
+
+1. 
+
+x = [-50 -20 10 70 100 120]
+y = [0.125 0.128 0.134 0.144 0.15 0.155]
+
+regressao_reta(x,y)
+
+
+REG L1 
+
+8.4
+x = [165 169 166 158 172 160 167 155 169 166]
+y = [168 170 168 160 172 164 165 158 172 164]
+
+regressao_reta(x,y)

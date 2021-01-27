@@ -1,0 +1,52 @@
+x = [1 2 4 6 7]
+
+y = [2 4 1 3 3]
+
+h = calc_h(x)
+
+dy = calc_dy(y, h)
+
+s = calc_(h, dy)
+
+a = calc_a(s, h)
+	
+b = calc_b(s)
+
+calc_c(s, dy, h)
+
+OK:
+function grafico (x = [], y = [])
+
+  n = length(x);
+
+  h = [];
+  dy = [];
+  a = [];
+  b = [];
+  c = [];
+  
+  h = calc_h(x);
+
+  dy = calc_dy(y, h);
+
+  s = calc_s(h, dy);
+
+  a = calc_a(s, h);
+    
+  b = calc_b(s);
+
+  c = calc_c(s, dy, h);
+  
+  for i = 1:n-1
+    ex = x(i):0.1:x(i+1);
+    ey = a(i)*(ex - x(i)).^3 + b(i)*(ex - x(i)).^2 + c(i)*(ex - x(i)) + y(i);
+    hold on
+    plot (ex, ey, 'b');
+  endfor
+  
+  for i = 1:n
+    hold on
+    plot (x(i), y(i),'*', 'MarkerEdgeColor', 'g', 'LineWidth',1);
+  endfor
+  
+endfunction
